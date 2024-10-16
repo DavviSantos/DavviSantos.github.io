@@ -1,0 +1,58 @@
+h1 {
+    padding-left: 200px;
+    font-family: Arial black;
+    color: red;
+}
+
+span {
+    font-size: 40px;
+}
+
+#imagemCronometro {
+    background: url("img/cronometro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 140px;
+    height: 132px;
+}
+
+#cronometro {
+    font-size: 50px;
+    color: red;
+}
+
+.painelEsquerdo {
+    float: left;
+    width: auto;
+    height: 500px;
+    background: #FFF;
+    margin-right: 5px;
+}
+
+.terra {
+    float: left;
+    width: 1000px;
+    height: 500px;
+    background: url("img/cenario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.terraDestruida {
+    float: left;
+    width: 1000px;
+    height: 500px;
+    background: url("img/explosao.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.terraSalva {
+    float: left;
+    width: 1000px;
+    height: 500px;
+    background: url("img/vitoria.jpg");
+    background-repeat: no-repeat;
+   
+}
