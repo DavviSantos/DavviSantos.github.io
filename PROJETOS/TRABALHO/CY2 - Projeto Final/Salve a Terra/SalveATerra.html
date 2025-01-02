@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Salve a Terra</title>
+    <!-- Link JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous">
+    </script>
+
+    <!-- Link BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- Arquivo Javascript -->
+    <script src="jogo.js"></script>
+    <!-- Arquivo CSS -->
+    <link rel="stylesheet " href="Styles.css" />
+</head>
+
+<body background-color=black onload="iniciaJogo()">
+    <!-- Topo da tela -->
+    <div id="Topo">
+        <table width="100%">
+            <tr>
+                <td width="20%">
+                    <audio id="musica" controls loop autoplay>
+                        <source src="som/musica.mp3" type="audio/mpeg ">
+                    </audio>
+                </td>
+                <td width="80%">
+                    <h1>Salve a Terra!</h1>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- Barra Lateral -->
+    <div id="barra_lateral" class="painelEsquerdo">
+        <table>
+            <tr>
+                <td>
+                    <img src="img/meteoro.png" width="100px" />
+                </td>
+                <td>
+                    <span id="meteoros"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img/explosao.png" width="100px" />
+                </td>
+                <td>
+                    <span id="explosoes"></span>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table>
+            <tr>
+                <td id="imagemCronometro">
+                    <span id="cronometro"></span>
+                </td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <table align=center>
+            <tr>
+                <td><button class="btn btn-danger " onclick="start()">Start</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Tela Principal -->
+    <div id="cenario" class="terra">
+    </div>
+</body>
+
+</html>
