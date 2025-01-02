@@ -55,7 +55,7 @@ h1 {
 
 button {
     position: absolute;
-    top: 75%;  /* Centraliza verticalmente */
+    top: 90%;  /* Centraliza verticalmente */
     transform: translateY(-50%);
     background: linear-gradient(135deg, #007BFF, #0056b3);
     color: white;
