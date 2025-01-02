@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path fill="#ff0080" d="M15 0C7.015 0 0 7.015 0 15s7.015 15 15 15 15-7.015 15-15S22.985 0 15 0zm-3.5 16.25c-1.15 0-2.125-.675-2.125-2.125 0-1.15.675-2.125 2.125-2.125 1.15 0 2.125.675 2.125 2.125 0 1.15-.675 2.125-2.125 2.125zm3.5-9c-1.15 0-2.125-.675-2.125-2.125 0-1.15.675-2.125 2.125-2.125 1.15 0 2.125.675 2.125 2.125 0 1.15-.675 2.125-2.125 2.125z"/></svg>'), auto; /* Define o coração como cursor */
+    background-size: cover; /* Ajusta o fundo para cobrir a tela */
+    animation: fundo-animacao 10s linear infinite; /* Adiciona animação ao fundo */
+  }
+
+@keyframes fundo-animacao {
+0% {
+    background-position: 0% 0%;
+}
+100% {
+    background-position: 100% 100%;
+}
+}
+
+h1 {
+color: #ff0080;
+margin-top: 100px;
+font-size: 36px;
+}
+
+.pedido {
+margin-bottom: 50px;
+}
+
+.botoes {
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+.botao {
+display: inline-block;
+padding: 10px 20px;
+font-size: 20px;
+background-color: #ff0080;
+color: #fff;
+border: none;
+cursor: pointer;
+margin: 0 10px;
+transition: transform 0.3s;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.botao:hover {
+transform: scale(1.1);
+}
+
+.animacao {
+display: none;
+margin-top: 50px;
+font-size: 24px;
+color: #ff0080;
+animation: pulsar 2s infinite;
+}
+
+@keyframes pulsar {
+0% {
+    transform: scale(1);
+}
+50% {
+    transform: scale(1.2);
+}
+100% {
+    transform: scale(1);
+}
+}
+
+.coracao {
+position: absolute;
+font-size: 30px; /* Tamanho do coração */
+color: #ff0080;
+animation: explodir 0.5s ease-out forwards;
+pointer-events: none; /* Impede que o cursor interfira em outros elementos */
+}
+
+/* Estilos para corações explodindo com diferentes cores e velocidades */
+.coracao.vermelho {
+color: red;
+animation: explodir-vermelho 1s ease-out forwards;
+}
+.coracao.azul {
+color: blue;
+animation: explodir-azul 2s ease-out forwards;
+}
+.coracao.verde {
+color: green;
+animation: explodir-verde 1.5s ease-out forwards;
+}
+
+@keyframes explodir {
+0% {
+    opacity: 1;
+    transform: scale(0);
+}
+100% {
+    opacity: 0;
+    transform: scale(1.5);
+}
+}
+
+@keyframes explodir-vermelho {
+0% {
+    opacity: 1;
+    transform: scale(0);
+}
+100% {
+    opacity: 0;
+    transform: scale(2);
+}
+}
+
+@keyframes explodir-azul {
+0% {
+    opacity: 1;
+    transform: scale(0);
+}
+100% {
+    opacity: 0;
+    transform: scale(1.2);
+}
+}
+
+@keyframes explodir-verde {
+0% {
+    opacity: 1;
+    transform: scale(0);
+}
+100% {
+    opacity: 0;
+    transform: scale(1.8);
+}
+}
+
+#nao { /* CSS para o botão "Não" */
+position: absolute;
+left: 0;
+top: 0;
+transition: transform 0.2s, background-color 0.2s;
+}
+
+#nao:hover {
+transform: scale(1.2);
+background-color: #f00;
+}
