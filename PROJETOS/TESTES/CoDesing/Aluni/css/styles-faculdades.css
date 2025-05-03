@@ -1,0 +1,112 @@
+.sec-faculdades {
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: stretch;
+}
+
+.diploma {
+    flex: 1 1 29%;
+    min-width: 200px;
+    height: auto;
+    margin: 5px; 
+    padding-left: 19%;
+}
+
+.diploma h4 {
+    width: 68%;
+    color: #0d5f87;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.diploma p {
+    margin-top: 10;
+    font-size: 14.5px;
+}
+
+.anuncio-faculdade {
+    flex: 1 1 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+}
+
+.anuncio-faculdade div {
+    background-color: #b0aea1;
+    width: 100%;
+    max-width: 140px;
+    height: 40%;
+}
+
+#lista-universidades.universidades-grid {
+    display: flex;
+}
+
+.universidade {
+    flex: 1 1 280px;
+    max-width: 300px;
+}
+
+.universidade h3 {
+    text-align: center;
+    font-size: 13px;
+}
+
+.universidade ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.universidade li {
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.3;
+}
+
+@media (max-width: 768px) {
+    /* Oculta elementos visuais no celular */
+    .anuncio-faculdade {
+      display: none;
+    }
+  
+    /* Ajusta o padding do texto */
+    .diploma {
+      padding-left: 25px;
+      width: 90%;
+    }
+  
+}
+
+@media (min-width: 1400px) {
+    .sec-faculdades {
+      justify-content: center; /* Centraliza os blocos */
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  
+    .diploma {
+      padding-left: 60px;  /* Reduz o padding lateral */
+      max-width: 800px;     /* Evita que estique demais */
+    }
+  
+    .universidade {
+      max-width: 320px;
+    }
+  
+    .universidade h3 {
+      font-size: 14px;
+    }
+  
+    .universidade li {
+      font-size: 12px;
+    }
+}

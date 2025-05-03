@@ -1,0 +1,75 @@
+[
+  {
+    "sigla_faculdade": "UENF",
+    "campus": "Principal",
+    "cursos": [
+      "Administração Pública",
+      "Agronomia",
+      "Biologia (Licenciatura)",
+      "Ciência da Computação",
+      "Ciências Biológicas",
+      "Ciências Sociais",
+      "Engenharia Civil",
+      "Engenharia de Exploração e Produção de Petróleo",
+      "Engenharia de Materiais",
+      "Engenharia de Produção",
+      "Engenharia Metalúrgica",
+      "Engenharia Meteorológica",
+      "Física (Licenciatura)",
+      "Matemática (Licenciatura)",
+      "Medicina Veterinária",
+      "Pedagogia (Licenciatura)",
+      "Química (Licenciatura)",
+      "Zootecnia"
+    ]
+  },
+  {
+    "sigla_faculdade": "IFF - Centro",
+    "campus": "Centro ",
+    "cursos": [
+      "Arquitetura e Urbanismo",
+      "Engenharia da Computação",
+      "Engenharia de Controle e Automação Industrial",
+      "Engenharia Elétrica",
+      "Sistemas de Informação",
+      "Engenharia Mecânica",
+      "Design Gráfico",
+      "Ciências da Natureza: Ciências e Biologia, Ciências e Física ou Ciências e Química (Licenciatura)",
+      "Educação Física (Licenciatura)",
+      "Geografia (Licenciatura)",
+      "Letras (Licenciatura)",
+      "Matemática (Licenciatura)",
+      "Teatro (Licenciatura)",
+      "Sistemas de Telecomunicações (Tecnologia)",
+      "Análise e Desenvolvimento de Sistemas (Tecnologia)"
+    ]
+  },
+  {
+    "sigla_faculdade": "IFF - Guarus",
+    "campus": "Guarus",
+    "cursos": [
+      "Engenharia Ambiental",
+      "Enfermagem",
+      "Música (Licenciatura)"
+    ]
+  },
+  {
+    "sigla_faculdade": "UFF",
+    "campus": "Campos dos Goytacazes",
+    "cursos": [
+      "Ciências Econômicas",
+      "Ciências Sociais (Licenciatura e Bacharelado)",
+      "Geografia (Licenciatura e Bacharelado)",
+      "História (Licenciatura e Bacharelado)",
+      "Psicologia",
+      "Serviço Social"
+    ]
+  },
+  {
+    "sigla_faculdade": "ISEPAM",
+    "campus": "Principal",
+    "cursos": [
+      "Pedagogia (Licenciatura)"
+    ]
+  }
+]

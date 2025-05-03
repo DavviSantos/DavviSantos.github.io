@@ -1,0 +1,38 @@
+[
+    {
+      "sigla": "UENF",
+      "nome": "Universidade Estadual do Norte Fluminense Darcy Ribeiro",
+      "endereco": "Av. Alberto Lamego, 2000 - Parque Califórnia, Campos dos Goytacazes - RJ, 28013-602",
+      "site": "http://www.uenf.br",
+      "descricao": "Fundada em 1993, a UENF é uma universidade pública de excelência voltada para o ensino, a pesquisa e a extensão. Conhecida por seu forte investimento em ciência e tecnologia, é uma das primeiras universidades do Brasil a funcionar integralmente em tempo integral e sem departamentos."
+    },
+    {
+      "sigla": "IFF - Centro",
+      "nome": "Instituto Federal Fluminense - Campus Centro",
+      "endereco": "Rua Dr. Siqueira, 273 - Parque Dom Bosco, Campos dos Goytacazes - RJ, 28030-130",
+      "site": "https://portal1.iff.edu.br",
+      "descricao": "O Campus Centro do IFF oferece cursos técnicos, de graduação e pós-graduação, com ênfase em áreas tecnológicas, humanas e ciências aplicadas. O instituto é referência em educação pública gratuita e de qualidade na região Norte Fluminense."
+    },
+    {
+      "sigla": "IFF - Guarus",
+      "nome": "Instituto Federal Fluminense - Campus Guarus",
+      "endereco": "Av. Prof. José Carlos Pereira Pinto, 1301 - Parque Guarus, Campos dos Goytacazes - RJ, 28060-040",
+      "site": "https://portal1.iff.edu.br",
+      "descricao": "O Campus Guarus do IFF atende à demanda educacional da região com cursos voltados principalmente à saúde, meio ambiente, artes e tecnologias, promovendo inclusão e desenvolvimento regional por meio da educação pública de qualidade."
+    },
+    {
+      "sigla": "UFF",
+      "nome": "Universidade Federal Fluminense - Campus Campos",
+      "endereco": "Rua José do Patrocínio, 71 - Centro, Campos dos Goytacazes - RJ, 28010-385",
+      "site": "https://www.uff.br",
+      "descricao": "A UFF é uma das maiores universidades federais do país, com diversos campi espalhados pelo estado do Rio de Janeiro. Em Campos, oferece cursos voltados às ciências humanas e sociais, com foco em excelência acadêmica e compromisso social."
+    },
+    {
+      "sigla": "ISEPAM",
+      "nome": "Instituto Superior de Educação Professor Aldo Muylaert",
+      "endereco": "Rua José do Patrocínio, 80 - Centro, Campos dos Goytacazes - RJ, 28010-385",
+      "site": "https://www.isepam.edu.br/",
+      "descricao": "O ISEPAM é uma instituição pública voltada à formação de professores e licenciados, contribuindo para o desenvolvimento da educação básica com foco em práticas pedagógicas inovadoras e formação cidadã."
+    }
+]
+  

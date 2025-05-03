@@ -1,0 +1,109 @@
+.sec-teste {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.teste, .como {
+    flex: 1;
+    width: 100%;
+    height: 50%;
+}
+
+.teste {
+    display: flex;
+    font-weight: normal;
+    background-color: #195f85;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teste p {
+    font-weight: normal;
+    margin: 0;
+}
+
+.texto-teste h5 {
+    margin-bottom: 0;
+}
+
+.linha-final {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* espaço entre o texto e o botão */
+    margin-top: 10px;
+}
+  
+  .linha-final p {
+    margin: 0;
+    font-size: 14px;
+}
+  
+.linha-final a {
+    color: white;
+    background-color: #1d71b8;
+    text-decoration: none;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    padding: 20px 25px;
+    border-radius: 30px;
+    margin-right: 15px;
+    transition: background 0.3s;
+}
+
+.teste a:hover {
+    background-color: #eb5b25;
+}
+
+.teste .texto-teste {
+    flex: 1;
+    padding-left: 15%;
+    font-size: 14.5px;
+}
+
+.teste img {
+    flex: 1;
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    clip-path: inset(0% 50% 0% 15%);
+    padding-right: 20%;
+    display: block;
+}
+
+.como {
+    background-image: url(../assets/i.png);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    flex-wrap: wrap; 
+}
+  
+.como > div {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+.como img {
+    max-width: 100px;
+    height: auto;
+    margin: 10px 0;
+}
+  
+.como p {
+    margin: 5px 0;
+    font-size: 14px;
+}
